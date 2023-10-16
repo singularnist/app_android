@@ -7,10 +7,10 @@ from sqlalchemy.orm import sessionmaker
 # from db_model import Base
 pymysql.install_as_MySQLdb()
 
-db_url = f"mysql+pymysql://user_shop:user_shop@192.168.0.15:3306/monitoring"
+db_url = f"mysql+pymysql://ТУТ СВОИ ДАННЫЕ ДЛЯ КОНЕКТА"
 
 
-engine = create_engine(db_url, pool_size=50, max_overflow=50)
+engine = create_engine(db_url)
 
 Session = sessionmaker(bind=engine)
 
