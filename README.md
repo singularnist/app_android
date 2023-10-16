@@ -26,7 +26,7 @@
 ### #comma separated e.g. requirements = sqlite3,kivy
 ### requirements = python3,kivy,kivymd,pymysql,sqlalchemy
 
-##Разрешение на использование интернета приложением, например если вам надо подключиться к БД
+## Разрешение на использование интернета приложением, например если вам надо подключиться к БД
 ### #(list) Permissions
 ### #(See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
 ### android.permissions = INTERNET
