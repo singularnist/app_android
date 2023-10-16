@@ -9,12 +9,9 @@ pymysql.install_as_MySQLdb()
 
 db_url = f"mysql+pymysql://ТУТ СВОИ ДАННЫЕ ДЛЯ КОНЕКТА"
 
-
 engine = create_engine(db_url)
 
-Session = sessionmaker(bind=engine)
-
-session_1 = Session()
+session_1 = sessionmaker(bind=engine)
 
 # articles = session_1.query(Switches).all()
 # for article in articles:
