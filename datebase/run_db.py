@@ -13,8 +13,4 @@ engine = create_engine(db_url)
 
 session_1 = sessionmaker(bind=engine)
 
-# articles = session_1.query(Switches).all()
-# for article in articles:
-#     print(article.name_sw)
 
-# Base.metadata.create_all(engine)
