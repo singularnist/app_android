@@ -17,12 +17,15 @@
 ### В папке появится файл настроек, редактировать можно как блокнотом так и IDE
 ### cейчас покажу важные настрйки в файле
 
-# (list) List of inclusions using pattern matching
-source.include_patterns = datebase/*,model/*
+## папки с фалами проекта, можно указать конкретный файл из папки если все не надо вдруг
+### (list) List of inclusions using pattern matching
+### source.include_patterns = datebase/*,model/*
 
-# comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,kivymd,pymysql,sqlalchemy
+## Зависимости можна, так же версию указывать через ==
+### comma separated e.g. requirements = sqlite3,kivy
+### requirements = python3,kivy,kivymd,pymysql,sqlalchemy
 
-# (list) Permissions
-# (See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
-android.permissions = INTERNET
+##Разрешение на использование интернета приложением, например если вам надо подключиться к БД
+### (list) Permissions
+### (See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
+### android.permissions = INTERNET
