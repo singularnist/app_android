@@ -19,14 +19,14 @@
 ### cейчас покажу важные настрйки в файле
 
 ## папки с фалами проекта, можно указать конкретный файл из папки если все не надо вдруг
-### (list) List of inclusions using pattern matching
+### #(list) List of inclusions using pattern matching
 ### source.include_patterns = datebase/*,model/*
 
-## Зависимости можна, так же версию указывать через ==
-### comma separated e.g. requirements = sqlite3,kivy
+## Зависимости проекта, так же можно версию указывать через ==
+### #comma separated e.g. requirements = sqlite3,kivy
 ### requirements = python3,kivy,kivymd,pymysql,sqlalchemy
 
 ##Разрешение на использование интернета приложением, например если вам надо подключиться к БД
-### (list) Permissions
-### (See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
+### #(list) Permissions
+### #(See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
 ### android.permissions = INTERNET
